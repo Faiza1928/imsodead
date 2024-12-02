@@ -310,34 +310,30 @@ body {
     }
 }
 
-/* Untuk ponsel kecil (layar maksimum 480px) */
 @media (max-width: 480px) {
     .hero {
-        padding: 5px;
-        font-size: 14px;
+        padding: 10px;
+        text-align: center;
     }
 
-    .hero h2 {
-        font-size: 18px;
-    }
-
-    .hero h3 {
-        font-size: 14px;
+    .recommendation-grid {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 10px;
     }
 
     .recommendation img {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: auto;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 15px;
     }
 
     .button {
-        padding: 8px;
-        font-size: 12px;
-    }
-
-    .ikon-kucing {
-        width: 50px;
-        bottom: 5px;
-        right: 5px;
+        width: 90%;
     }
 }
+
